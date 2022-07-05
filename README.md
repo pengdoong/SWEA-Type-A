@@ -1,0 +1,1 @@
+# SWEA-Type-A
