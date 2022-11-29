@@ -17,7 +17,21 @@ int main () {
     ans = hunnit * 100 + tens * 10 + ones;
 
     cout << ones << endl << tens << endl << hunnit << endl << ans << endl;
-
-
     return 0;
 }
+
+/*  that was a pretty dumb solution
+
+#include <iostream>
+
+int main()
+{
+    int a, b;
+    std::cin >> a;
+    std::cin >> b;
+    std::cout << a * (b % 10) <<"\n";
+    std::cout << a * (b % 100 / 10) <<"\n";
+    std::cout << a * (b / 100) <<"\n";
+    std::cout << a * b << "\n";
+}
+} */
